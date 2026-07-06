@@ -39,7 +39,7 @@ export default function Contact() {
   return (
     <section id="contact" className="contact section-padding">
       <div className="section-container">
-        <motion.h2 
+        <motion.h2
           className="section-title text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ export default function Contact() {
         >
           Get In <span className="gradient-text">Touch</span>
         </motion.h2>
-        <motion.p 
+        <motion.p
           className="section-desc text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -65,10 +65,10 @@ export default function Contact() {
               const Icon = card.icon;
               return (
                 <Magnetic key={card.title} speed={0.1}>
-                  <a 
-                    href={card.href} 
-                    target={card.href.startsWith('http') ? '_blank' : '_self'} 
-                    rel="noreferrer" 
+                  <a
+                    href={card.href}
+                    target={card.href.startsWith('http') ? '_blank' : '_self'}
+                    rel="noreferrer"
                     className="info-card"
                   >
                     <div className={`info-icon ${card.gradientClass}`}>
@@ -83,31 +83,6 @@ export default function Contact() {
               );
             })}
           </div>
-
-          {/* Contact Form */}
-          <motion.div 
-            className="contact-form"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-          >
-            <form onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label htmlFor="name">Your Name</label>
-                <input type="text" id="name" required placeholder="John Doe" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Your Email</label>
-                <input type="email" id="email" required placeholder="john@example.com" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea id="message" rows="5" required placeholder="Hi Chandan, let's connect..."></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary btn-block">Send Message</button>
-            </form>
-          </motion.div>
         </div>
       </div>
     </section>

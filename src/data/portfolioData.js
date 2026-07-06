@@ -129,7 +129,6 @@ export const skillsData = [
     skills: [
       { name: "Python", icon: "Python", class: "text-python" },
       { name: "JavaScript", icon: "JS", class: "text-javascript" },
-      { name: "TypeScript", icon: "TS", class: "text-typescript" },
       { name: "C / C++", icon: "Cpp", class: "text-cpp" },
       { name: "SQL (Basic)", icon: "Sql", class: "text-sql" }
     ]
@@ -150,7 +149,7 @@ export const skillsData = [
     icon: "Globe",
     skills: [
       { name: "React", icon: "React", class: "text-react" },
-      { name: "Google Apps Script", icon: "Gas", class: "text-gas" },
+      { name: "Google Sheets", icon: "Sheets", class: "text-sheets" },
       { name: "Zoho Deluge Scripting", icon: "Deluge", class: "text-deluge" },
       { name: "HTML5 & CSS3", icon: "Html", class: "text-html" }
     ]
@@ -171,7 +170,7 @@ export const experience = [
   {
     title: "Onsite Intern – Computer Vision, ML & Full Stack",
     company: "DocketRun Tech Pvt Ltd",
-    date: "Feb 2026 – Present",
+    date: "Feb 2026 – July 2026",
     bullets: [
       "Engaged in training and tuning custom YOLOv8 and YOLOv11 deep learning architectures for specific industrial tasks including vehicle identification and steel rebar object detection.",
       "Engineered real-time video inference pipelines leveraging OpenCV, NumPy, and python script workers.",
