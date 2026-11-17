@@ -1,4 +1,3 @@
-import React from 'react';
 import { Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { experience } from '../data/portfolioData';
@@ -14,7 +13,7 @@ export default function Experience() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.5 }}
         >
-          Professional <span className="gradient-text">Experience</span>
+          My <span className="gradient-text">Internships</span>
         </motion.h2>
         
         <div className="timeline-container">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { personalInfo } from '../data/portfolioData';
@@ -6,7 +5,7 @@ import { personalInfo } from '../data/portfolioData';
 export default function About() {
   const details = [
     { label: 'Location', value: personalInfo.location, icon: MapPin },
-    { label: 'Degree', value: 'B.E. in ECE (8.22 CGPA)', icon: GraduationCap },
+    { label: 'Degree', value: 'B.E. in ECE (8.26 CGPA)', icon: GraduationCap },
   ];
 
   return (

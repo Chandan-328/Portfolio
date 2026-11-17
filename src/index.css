@@ -553,6 +553,10 @@ img {
     background: linear-gradient(135deg, #4f46e5, #6366f1);
 }
 
+.bg-grad-teal {
+    background: linear-gradient(135deg, #0d9488, #14b8a6);
+}
+
 .project-tag {
     position: absolute;
     top: 16px;

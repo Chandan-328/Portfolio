@@ -1,26 +1,26 @@
 export const personalInfo = {
   name: "Chandan S Muragod",
-  title: "Computer Vision & Full-Stack Developer",
-  badge: "Computer Vision & Full-Stack",
+  title: "C/C++, Computer Vision & Web Applications Developer",
+  badge: "C/C++, Computer Vision & Web Applications",
   email: "chandanmuragod1@gmail.com",
   phone: "+91 8073730328",
   location: "Karnataka, India",
   linkedin: "https://www.linkedin.com/in/chandan-muragod-8050142a8",
   github: "https://github.com/Chandan-328",
-  resumeUrl: "/download-resume.pdf",
+  resumeUrl: "/Chandan_S_M_Resume.pdf",
   bio: [
-    "I am an enthusiastic Electronics and Communication Engineering (ECE) graduate with a deep passion for blending hardware, intelligent software, and modern web architectures.",
-    "My expertise lies in developing and deploying end-to-end computer vision pipelines. During my onsite internship at DocketRun Tech Pvt Ltd, I trained and optimized YOLO models for critical industrial applications like safety compliance and automated inventory systems.",
-    "Beyond AI models, I enjoy building tools that solve practical problems. Whether it's developing custom cross-platform APIs linking Zoho Cliq to Google Sheets, building full-stack applications with React and TypeScript, or programming low-latency firmware for IoT devices using Embedded C, I thrive on writing clean, efficient, and well-documented code."
+    "I am an enthusiastic engineering graduate with a strong foundation in C/C++ programming, intelligent software systems, and modern web architectures.",
+    "My expertise spans developing robust software in C/C++, end-to-end computer vision pipelines (YOLO, OpenCV), and scalable web applications. During my onsite internship at DocketRun Tech Pvt Ltd, I trained and optimized deep learning architectures for real-time industrial detection and tracking systems.",
+    "Beyond AI and vision models, I enjoy building tools that solve practical problems across software and embedded systems. Whether it's writing high-performance C/C++ applications with custom data structures and file I/O, developing modern web apps with React, or integrating cross-platform APIs, I thrive on writing clean, efficient, and well-documented code."
   ]
 };
 
 export const stats = [
   { label: "Location", value: "Karnataka, India", icon: "MapPin" },
-  { label: "Degree", value: "B.E. in ECE (8.22 CGPA)", icon: "GraduationCap" }
+  { label: "Degree", value: "B.E. in ECE (8.26 CGPA)", icon: "GraduationCap" }
 ];
 
-export const projectCategories = ["All", "Computer Vision", "Full Stack", "IoT & Hardware", "HCI & AI"];
+export const projectCategories = ["All", "Computer Vision", "Web Applications", "IoT & Hardware", "HCI & AI", "C / Systems"];
 
 export const projects = [
   {
@@ -40,7 +40,7 @@ export const projects = [
     title: "Zoho Cliq Task Tracker Bot",
     description: "An enterprise-grade automation system mapping Zoho Cliq chat commands directly to Google Sheets using Apps Script Web App APIs. Parses `#update` commands for tracking daily tasks.",
     tech: ["JavaScript", "Deluge Script", "Google Apps Script", "Webhooks"],
-    category: "Full Stack",
+    category: "Web Applications",
     icon: "Bot",
     gradientClass: "bg-grad-blue",
     links: [
@@ -52,7 +52,7 @@ export const projects = [
     title: "ShopHub E-Commerce",
     description: "A modern e-commerce storefront web application designed with type safety and optimized state management. Built with TypeScript and seamlessly deployed on Vercel.",
     tech: ["TypeScript", "React", "HTML5/CSS3", "Vercel"],
-    category: "Full Stack",
+    category: "Web Applications",
     icon: "ShoppingBag",
     gradientClass: "bg-grad-cyan",
     links: [
@@ -113,11 +113,23 @@ export const projects = [
     title: "Sante Price Index",
     description: "A clean, responsive web interface tracking market indices and product prices for Sante. Built as a lightweight, layout-focused frontend dashboard.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    category: "Full Stack",
+    category: "Web Applications",
     icon: "BarChart",
     gradientClass: "bg-grad-indigo",
     links: [
       { text: "Source Code", url: "https://github.com/Chandan-328/Sante-price-index", icon: "Github" }
+    ]
+  },
+  {
+    id: 9,
+    title: "Address Book Management System",
+    description: "A modular, menu-driven CLI application developed in C for managing contact records with persistent CSV storage. Features robust input validation, duplicate prevention, and multi-field search algorithms.",
+    tech: ["C", "File I/O", "Data Structures", "GCC"],
+    category: "C / Systems",
+    icon: "BookUser",
+    gradientClass: "bg-grad-teal",
+    links: [
+      { text: "Source Code", url: "https://github.com/Chandan-328/Addressbook-management-system", icon: "Github" }
     ]
   }
 ];
@@ -127,9 +139,9 @@ export const skillsData = [
     category: "Languages",
     icon: "Code",
     skills: [
-      { name: "Python", icon: "Python", class: "text-python" },
-      { name: "JavaScript", icon: "JS", class: "text-javascript" },
       { name: "C / C++", icon: "Cpp", class: "text-cpp" },
+      { name: "Python", icon: "Python", class: "text-python" },
+      { name: "HTML & CSS", icon: "Html", class: "text-html" },
       { name: "SQL (Basic)", icon: "Sql", class: "text-sql" }
     ]
   },
@@ -149,9 +161,9 @@ export const skillsData = [
     icon: "Globe",
     skills: [
       { name: "React", icon: "React", class: "text-react" },
-      { name: "Google Sheets", icon: "Sheets", class: "text-sheets" },
+      { name: "Google Apps Script", icon: "Gas", class: "text-gas" },
       { name: "Zoho Deluge Scripting", icon: "Deluge", class: "text-deluge" },
-      { name: "HTML5 & CSS3", icon: "Html", class: "text-html" }
+      { name: "Google Sheets", icon: "Sheets", class: "text-sheets" }
     ]
   },
   {
@@ -168,14 +180,25 @@ export const skillsData = [
 
 export const experience = [
   {
-    title: "Onsite Intern – Computer Vision, ML & Full Stack",
+    title: "Onsite Intern – Computer Vision, ML & Web Applications",
     company: "DocketRun Tech Pvt Ltd",
     date: "Feb 2026 – July 2026",
     bullets: [
       "Engaged in training and tuning custom YOLOv8 and YOLOv11 deep learning architectures for specific industrial tasks including vehicle identification and steel rebar object detection.",
       "Engineered real-time video inference pipelines leveraging OpenCV, NumPy, and python script workers.",
       "Prepared datasets, managed annotation flows in Roboflow, and parsed model optimization logs.",
-      "Integrated full-stack features, verifying end-to-end model deployments on edge devices."
+      "Integrated web application features, verifying end-to-end model deployments on edge devices."
+    ]
+  },
+  {
+    title: "Intern – Android App Development & Generative AI",
+    company: "MindMatrix",
+    date: "Feb 2026 – May 2026",
+    bullets: [
+      "Built native Android applications incorporating modern UI layouts with Kotlin and Android Studio.",
+      "Integrated Generative AI capabilities to deliver smart assistive features and automated workflows.",
+      "Engineered prompt-driven integrations and handled response processing for enhanced user interactions.",
+      "Conducted thorough testing, debugging, and performance optimization across target mobile environments."
     ]
   }
 ];
@@ -185,7 +208,7 @@ export const education = [
     year: "2022 - 2026",
     degree: "Bachelor of Engineering in ECE",
     institution: "KLS VDIT Haliyal",
-    grade: "CGPA: 8.22 / 10"
+    grade: "CGPA: 8.26 / 10"
   },
   {
     year: "2020 - 2022",

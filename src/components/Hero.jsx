@@ -1,5 +1,4 @@
-import React from 'react';
-import { Brain, Download, Mail, ChevronDown } from 'lucide-react';
+import { Download, Mail, ChevronDown } from 'lucide-react';
 import { Github, Linkedin } from './SocialIcons';
 import { motion } from 'framer-motion';
 import { personalInfo } from '../data/portfolioData';
@@ -37,16 +36,12 @@ export default function Hero({ handleNavClick }) {
           initial="hidden"
           animate="visible"
         >
-          <motion.div className="badge-cv-engineer" variants={itemVariants}>
-            <Brain size={16} /> {personalInfo.badge}
-          </motion.div>
-          
           <motion.h1 className="hero-title" variants={itemVariants}>
             Hi, I'm <span className="gradient-text">{personalInfo.name}</span>
           </motion.h1>
           
           <motion.p className="hero-subtitle" variants={itemVariants}>
-            I build intelligent computer vision models, autonomous edge systems, and scalable full-stack integrations to solve real-world industrial challenges.
+            I develop high-performance software with C/C++, intelligent computer vision models, and scalable web applications to solve real-world engineering challenges.
           </motion.p>
           
           <motion.div className="hero-cta" variants={itemVariants}>

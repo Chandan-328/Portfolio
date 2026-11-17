@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Magnetic from './Magnetic';
@@ -20,7 +20,7 @@ export default function Navbar({ activeSection, handleNavClick }) {
     { name: 'About', id: '#about' },
     { name: 'Projects', id: '#projects' },
     { name: 'Skills', id: '#skills' },
-    { name: 'Experience', id: '#experience' },
+    { name: 'Internships', id: '#experience' },
     { name: 'Education & Certs', id: '#education-certs' },
   ];
 

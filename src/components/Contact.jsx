@@ -55,7 +55,7 @@ export default function Contact() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          Let's collaborate! Feel free to reach out to discuss Computer Vision models, Full-Stack applications, or job opportunities.
+          Let's collaborate! Feel free to reach out to discuss Computer Vision models, Web Applications, or job opportunities.
         </motion.p>
 
         <div className="contact-grid">

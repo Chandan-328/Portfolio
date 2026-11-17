@@ -1,5 +1,5 @@
-import React, { useState, useMemo, useCallback } from 'react';
-import { Truck, Bot, ShoppingBag, Hash, Car, MousePointer, Wifi, BarChart2, ExternalLink, Lock } from 'lucide-react';
+import { useState, useMemo, useCallback } from 'react';
+import { Truck, Bot, ShoppingBag, Hash, Car, MousePointer, Wifi, BarChart2, ExternalLink, Lock, BookUser } from 'lucide-react';
 import { Github } from './SocialIcons';
 import { motion, AnimatePresence } from 'framer-motion';
 import { projects, projectCategories } from '../data/portfolioData';
@@ -13,7 +13,8 @@ const iconMap = {
   Car: Car,
   HandPointer: MousePointer,
   Wifi: Wifi,
-  BarChart: BarChart2
+  BarChart: BarChart2,
+  BookUser: BookUser
 };
 
 const linkIconMap = {
@@ -56,7 +57,7 @@ export default function Projects() {
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Here is a curated showcase of my engineering work across Computer Vision, Full-Stack, and IoT/Hardware platforms.
+            Here is a curated showcase of my engineering work across Computer Vision, Web Applications, and IoT/Hardware platforms.
           </motion.p>
         </div>
 
